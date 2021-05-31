@@ -130,8 +130,8 @@ CREATE TABLE `orders_norm` (
 <!-- show create table production; -->
 
 CREATE TABLE `production` (
-  `item_id` int DEFAULT NULL,
-  `quamtity` int DEFAULT NULL,
+  `item_id` varchar(20) DEFAULT NULL,
+  `quamtity` varchar(20) DEFAULT NULL,
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
